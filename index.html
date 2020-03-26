@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body style="background-color:#5E5F61;">
+		<div id= "menu" class="menuText">
+			<a href="#about">About Me</a>
+			<a href="#photos">My Photos</a>
+			<a href="#playlist">My Playlist</a>
+			<a href="#like">Like</a>
+			<a href="#qrcoder">QR code</a>
+			<a href="#spa">Q&A</a>
+			<a href="#contact">Contact Me</a>
+			<img style="float: right;" src=logo.jpg width=100 height=53 align="right"/>
+		</div>
+				  
+		<section id="about" class="section">
+			<br/>
+				<h1>
+				about me
+				</h1>
+			<br/>
+			<h3>
+			My name is Saul Hudson, and I’m from Los-Angeles, California.<br>
+			I’m a musician and a psalmist, but I’m mostly known for my guitar skills and the band I’m a part of – "Guns N’ Roses".<br>
+			If you don’t know until now who I am, you will probably recognize by my nickname “Slash”. <br><br>
+			So here what there is to know about me.<br>
+			I born in Hampstead, England and right now I’m 54 years old. Since the age 15, when my grandmother gave my first guitar,  me and the guitar was always a<br>
+			successful love story and most of the time you’ll probably find me with a guitar in my hands.<br><br>
+			After I few years when I got my first guitar and made improvements with my guitar skills, I had a dream to join a band and become famous!<br>
+			At first, it wasn’t easy at all, I formed a few bands with a childhood friend but those bands have not been successful and recognized.<br>
+			In the end, after a few failing attempts, I joined the band “Guns N’ Roses” and together we began to conquer and music world, and especially the hard-rock genre!<br><br>
+			For me, the thing I’m mostly happy about is that the in songs we made, my guitar playing made a lot of inspiration in fans around the world, and it inspired them to study<br>
+			how to play a guitar and to dare making their dreams come true!<br><br>
+			In time, I got some nice rewards for my skills. Here some of them:<br><br>
+			<li>In 2004, the magazine “Guitar World” placed my riff (opening guitar) in the song “Sweet Child o’Mine” at the 1st place on their list of “The 100 Greatest Riffs”.</li><br>
+			<li>In 2008, ‘Guitar World’ ranked my solo in the song “November Rain” at 6th on their list of “The 100 Greatest Guitar Solos”.</li><br>
+			<li>In 2009, Time magazine names me as one of “The 10 Best Electric Guitar Players”.</li>
+			</h3>
+		</section>
+
+		<section id="photos" class="section">
+			<br/>
+				<h1>
+				my photos
+				</h1>
+			<br/>
+			<table align="center">
+				<tr>
+					<td>
+						<img style="float: right;" src=photo1.jpg align="left" width = 270px height=300px/>
+					</td>
+					<td>
+						<img style="float: right;" src=photo2.jpg align="left" width = 350px height=300px/>
+					</td>
+					</td>
+					<td>
+						<img style="float: right;" src=photo4.jpg align="left" width = 270px height=300px/>
+					</td>
+					<td>
+						<img style="float: right;" src=photo3.jpg align="left" width = 380px height=300px/>
+					</td>
+				</tr>
+			</table>
+		</section>
+
+		<section id="playlist" class="section">
+			<br/>
+				<h1>
+				my playlist
+				</h1>
+			<br/>
+			<center>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfvInrXhVqr-U-GabFC2QBhbTyT7pjm4K" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</center>
+		</section>
+
+		<section id="like" class="section">
+				<h1>
+				give me a like
+				</h1>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="qrcoder" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				<h1>
+				scan my code
+				</h1>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="spa" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				<h1>
+				ans
+				</h1>
+			<br/>
+			<br/>
+		</section>
+
+		<section id="contact" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				<h1>
+				contact me
+				</h1>
+			<br/>
+			<br/>
+		</section>
+
+
+		<script type="text/javascript">
+		$(function(){
+		  $("#nav a").click(function(e){
+			e.preventDefault();
+			$('html,body').scrollTo(this.hash,this.hash); 
+		  });
+		});
+		</script>
+		<script type="text/javascript">
+		 $(document).scroll(function() {
+			$('#menu').toggle($(this).scrollTop()>1000)
+		 });​
+		 </script>
+	</body>
+</html>
