@@ -12,7 +12,7 @@ The site conatins:
 
 
 Here is the URL for my webside:
-https://github.com/SISE-Web-Development-Environments/203388665
+https://sise-web-development-environments.github.io/203388665/
 
 
 Hope you will enjoy mt site :)
